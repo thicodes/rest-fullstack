@@ -70,6 +70,7 @@
     "lint": "eslint --ext .js packages/**",
     "lint:staged": "lint-staged",
     "test": "jest --coverage",
+    "start:server": "lerna run start --scope @rest/server --stream",
     "start:web": "lerna run start --scope @rest/web-app --stream"
   },
   "workspaces": {
