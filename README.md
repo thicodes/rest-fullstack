@@ -8,4 +8,4 @@ A simple REST app with Apollo
 
 ## License
 
-MIT license, Copyright (c) 2019 Foton.
+MIT license, Copyright (c) 2019
