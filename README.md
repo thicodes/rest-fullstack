@@ -3,21 +3,14 @@ A simple REST app with Apollo
 
 ## Getting started
 
-### Clone the Repo
-
 ```sh
+# Clone the Repo
 > git clone https://github.com/thiagoleitedev/rest-fullstack.git
-```
 
-#### Enter your newly-cloned folder
-
-```sh
+# Enter your newly-cloned folder
 > cd rest-fullstack
-```
 
-#### Install dependencies
-
-```sh
+# Install dependencies
 > yarn install
 ```
 
