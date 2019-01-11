@@ -9,13 +9,13 @@ A simple REST app with Apollo
 > git clone https://github.com/thiagoleitedev/rest-fullstack.git
 ```
 
-### Enter your newly-cloned folder
+#### Enter your newly-cloned folder
 
 ```sh
 > cd rest-fullstack
 ```
 
-### Install dependencies
+#### Install dependencies
 
 ```sh
 > yarn install
