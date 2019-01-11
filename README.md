@@ -14,9 +14,10 @@ A simple REST app with Apollo
 > yarn install
 ```
 
-## Commands
+## Top-Level commands
 
-* `yarn start:server` - start server  
+* `yarn start:server` - run dev server
+* `yarn start:web` - run dev web
 
 ## Features:
 
