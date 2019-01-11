@@ -16,9 +16,7 @@ A simple REST app with Apollo
 
 ## Commands
 
-```sh
 * `yarn start:server` - start server  
-```
 
 ## Features:
 
