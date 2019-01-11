@@ -14,6 +14,12 @@ A simple REST app with Apollo
 > yarn install
 ```
 
+## Commands
+
+```sh
+* `yarn start:server` - start server  
+```
+
 ## Features:
 
 - [ ] Dataloader;
