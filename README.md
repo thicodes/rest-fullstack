@@ -1,4 +1,4 @@
-# rest-fullstack
+# Rest Fullstack
 A simple REST app with Apollo
 
 
