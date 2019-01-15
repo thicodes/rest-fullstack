@@ -26,6 +26,9 @@ This project is based and inspired on [Restria](https://github.com/entria/restri
 
 - [ ] Authentication;
 - [ ] Dataloader;
+- [ ] Apollo Cache
+- [ ] Apollo Optimistic 
+- [ ] Fragments
 
 ## License
 
