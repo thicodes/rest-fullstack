@@ -1,5 +1,8 @@
 # Rest Fullstack
-A simple REST app with Apollo
+
+How to consume multiple Rest endpoints, using GraphQL architecture and tooling in frontend? This repository brings a sample of how to solve without needing Redux or manage many states.
+
+This project is based and inspired on [Restria](https://github.com/entria/restria) and architecture of the [Entria Fullstack](https://github.com/entria/entria-fullstack), by [Entria](https://github.com/entria/). I am very grateful for the collaboration and encouragement through open-source.
 
 ## Getting started
 
@@ -21,6 +24,7 @@ A simple REST app with Apollo
 
 ## Features:
 
+- [ ] Authentication;
 - [ ] Dataloader;
 
 ## License
