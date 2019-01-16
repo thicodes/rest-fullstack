@@ -10,9 +10,8 @@ import {
 
 import { isAuthenticated } from './auth';
 import Login from './components/Login';
+import Home from './components/Home';
 import UserCreate from './components/UserCreate';
-import UserDetail from './components/UserDetail';
-import UserList from './components/UserList';
 import Admin from './components/Admin';
 
 function PrivateRoute({ component: Component, ...rest }) {
@@ -38,7 +37,10 @@ function PrivateRoute({ component: Component, ...rest }) {
 const Routes = () => (
   <Router>
     <Switch>
-      <Route path="/" exact component={UserList} />
+      <Route path="/" exact component={Home} />
+      <Route path="/login" exact component={Login} />
+      <Route path="/users/create" exact component={UserCreate} />
+      <PrivateRoute path="/admin" exact component={Admin} />
     </Switch>
   </Router>
 );
