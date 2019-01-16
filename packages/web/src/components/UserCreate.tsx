@@ -7,6 +7,26 @@
     });
   };
 
-const UserCreate = () => <p>UserCreate</p>;
+        <Mutation mutation={CREATE_USER} update={this.updateCache}>
+          {mutation => (
+            <form onSubmit={e => this.handleSubmit(e, mutation)}>
+              <input
+                type="text"
+                placeholder="name"
+                name="name"
+                value={name}
+                onChange={e => this.handleChange(e)}
+              />
+              <input
+                type="text"
+                placeholder="username"
+                name="username"
+                value={username}
+                onChange={e => this.handleChange(e)}
+              />
+              <button type="submit">create</button>
+            </form>
+          )}
+        </Mutation>
 
 export default UserCreate;
