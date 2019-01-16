@@ -22,7 +22,7 @@ const authRestLink = setContext((_, { headers }) => {
 
 // Setup the domain of your endpoint here
 const restLink = new RestLink({
-  uri: 'http://jsonplaceholder.typicode.com',
+  uri: 'http://localhost:3000/api/', //server-fake endpoint
 });
 
 const client = new ApolloClient({
