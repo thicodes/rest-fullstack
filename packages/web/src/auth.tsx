@@ -1,6 +1,5 @@
 export const isAuthenticated = () => {
-  return true;
-  //return localStorage.getItem('token');
+  return localStorage.getItem('token');
 };
 
 export const getToken = () => {
