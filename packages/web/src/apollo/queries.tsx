@@ -1,6 +1,8 @@
+import gql from 'graphql-tag';
+
 export const GET_USERS = gql`
-  {
-    alerts @rest(type: "Users", path: "users") {
+  query users {
+    users @rest(type: "Users", path: "users") {
       id
       name
       username
